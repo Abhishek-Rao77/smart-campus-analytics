@@ -14,6 +14,13 @@ Colleges collect attendance, marks, LMS activity and feedback — but it sits sc
 
 Smart Campus Analytics pulls a college's student data into one place and computes a **Student Success Score** for every student. It flags at-risk students with plain-English explanations, segments students so mentors can target help, and includes a what-if simulator: move the attendance / assignment-completion / aptitude sliders and the score and risk flags update live.
 
+## New in the full app
+
+- **Bulk Excel/CSV import** — Principal, HOD, or sub-HOD can upload a spreadsheet with up to 5,000 student rows. The app previews every row with validation, auto-generates roll numbers from the configured series, creates linked student logins in batches with a progress indicator, and finishes with created/skipped counts plus per-row reasons.
+- **AI tutor media upload** — Vidyut (the AI tutor) accepts camera photos, device photos, and text files (TXT/Markdown/CSV/JSON) in the tutor chat, so a student can snap a photo of a handwritten doubt and get an explanation.
+
+These features run in the private authenticated full-stack app; their source is not part of this repo.
+
 ## What's in this repo
 
 | Folder | Contents |
